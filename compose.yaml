@@ -13,21 +13,26 @@ services:
       - MONGO_URI=mongodb://mongo:27017/imageUploadDB # MongoDB service hostname
     depends_on:
       - mongo # Ensure MongoDB is started before the app
+    volumes:
+      - uploads:/app/uploads
+      - emojis:/app/emojis
     networks:
       - app-network
 
   mongo:
-    image: mongo # Use the official MongoDB image
+    image: mongo
     container_name: mongodb
     ports:
-      - "27017:27017" # Map MongoDB port to host
+      - "27017:27017"
     networks:
       - app-network
     volumes:
-      - mongo-data:/data/db # Persist MongoDB data
+      - mongo-data:/data/db
 
 volumes:
-  mongo-data: # Volume for MongoDB data
+  uploads: # Volume for uploaded images (shared between middleware and vision application)
+  emojis: # Volume for generated (shared between middleware and stable diffsion application)
+  mongo-data: # Volume for persist MongoDB data
 
 networks:
   app-network: # Shared network for communication between services
