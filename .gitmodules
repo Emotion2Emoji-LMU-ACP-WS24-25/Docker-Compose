@@ -1,3 +1,6 @@
 [submodule "middleware"]
 	path = middleware
 	url = git@github.com:Emotion2Emoji-LMU-ACP-WS24-25/Backend-Interface.git
+[submodule "imageGeneration"]
+	path = imageGeneration
+	url = git@github.com:Emotion2Emoji-LMU-ACP-WS24-25/Backend-StableDiffusion.git
