@@ -11,6 +11,9 @@ This repository only holds the docker-compose file [📄](compose.yaml) that bui
 
   ... more to come
 
+## Job status
+![Image of the whole infrastructure](status.svg)
+
 ## Commands
 
 To get the whole project with the correct folder structure use `git clone --recurse-submodules git@github.com:Emotion2Emoji-LMU-ACP-WS24-25/Docker-Compose.git [path]` with `path` being the optional custom path to clone the repo into.
