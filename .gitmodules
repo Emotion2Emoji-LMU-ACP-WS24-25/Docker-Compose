@@ -4,6 +4,6 @@
 [submodule "imageGeneration"]
 	path = imageGeneration
 	url = git@github.com:Emotion2Emoji-LMU-ACP-WS24-25/Backend-StableDiffusion.git
-[submodule "imageAnalysis"]
-	path = imageAnalysis
+[submodule "visionModel"]
+	path = visionModel
 	url = git@github.com:Emotion2Emoji-LMU-ACP-WS24-25/Backend-PaliGemma-2.git
