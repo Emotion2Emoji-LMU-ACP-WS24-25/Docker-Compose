@@ -29,6 +29,34 @@ services:
     volumes:
       - mongo-data:/data/db
 
+  stablediffusion:
+    build:
+      context: ./imageGeneration
+      dockerfile: Dockerfile
+
+    container_name: stablediff
+    ports:
+      - "5000:5000"
+    depends_on:
+      - mongo # Ensure MongoDB is started before the app
+    volumes:
+      - emojis:/app/emojis
+      - ${MODELS_PATH}:/app/models
+    networks:
+      - app-network
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all  # Zeigt alle verfügbaren GPUs an
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility  # Erforderliche GPU-Funktionen
+      - PYTHONUNBUFFERED=1
+      - PORT=5000
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+
 volumes:
   uploads: # Volume for uploaded images (shared between middleware and vision application)
   emojis: # Volume for generated (shared between middleware and stable diffsion application)
