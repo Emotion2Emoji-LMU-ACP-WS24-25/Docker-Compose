@@ -9,8 +9,8 @@ This repository only holds the docker-compose file [📄](compose.yaml) that bui
 - 📂 `/middleware` : [`Backend-Interface`](https://github.com/Emotion2Emoji-LMU-ACP-WS24-25/Backend-Interface)
 - 📂 `/imageGeneration` : [`Backend-StableDiffusion`](https://github.com/Emotion2Emoji-LMU-ACP-WS24-25/Backend-StableDiffusion)
 - 📂 `/visionModel` : [`Backend-PaliGemma-2`](https://github.com/Emotion2Emoji-LMU-ACP-WS24-25/Backend-PaliGemma-2)
+- 📂 `/frontend` : [`Frontend-Flutter`](https://github.com/Emotion2Emoji-LMU-ACP-WS24-25/Frontend-Flutter)
 
-  ... more to come
 
 ## Job status
 ![Image of the whole infrastructure](status.svg)
