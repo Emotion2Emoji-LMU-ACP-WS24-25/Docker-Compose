@@ -12,7 +12,25 @@ This repository only holds the docker-compose file [📄](compose.yaml) that bui
 - 📂 `/frontend` : [`Frontend-Flutter`](https://github.com/Emotion2Emoji-LMU-ACP-WS24-25/Frontend-Flutter)
 
 
-## Job status
+## Job
+Example:
+```json
+{
+  "_id": {
+    "$oid": "6758a254a304107814afd00e"
+  },
+  "frontImagePath": "uploads/demo/2024_12_10-20_19-front-51394850.jpg",
+  "backImagePath": "uploads/demo/2024_12_10-20_19-back-51394850.jpg",
+  "prompt": "A male with blonde hair, green eyes, strongly expressing happy emotion, wearing a balck shirt, a rocky cliff with grass growing out of it in the background, icon emoji",
+  "status": "completed",
+  "resultImagePath": "/app/emojis/6758a254a304107814afd00e.png",
+  "uploadDate": "2024-12-10",
+  "uploadTime": "20:19:32",
+  "__v": 0
+}
+```
+
+### Job status
 ![Image of the whole infrastructure](status.svg)
 
 ## Commands
