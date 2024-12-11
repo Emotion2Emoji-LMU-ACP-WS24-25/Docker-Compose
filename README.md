@@ -1,10 +1,10 @@
-# Docker-Compose
+# 🚢 Docker-Compose
 
 This repository only holds the docker-compose file [📄](compose.yaml) that builds the whole backend stack as defined here:
 
 ![Image of the whole infrastructure](infrastructure.svg)
 
-## Dependent Repositories
+## 📂 Dependent Repositories
 
 - 📂 `/middleware` : [`Backend-Interface`](https://github.com/Emotion2Emoji-LMU-ACP-WS24-25/Backend-Interface)
 - 📂 `/imageGeneration` : [`Backend-StableDiffusion`](https://github.com/Emotion2Emoji-LMU-ACP-WS24-25/Backend-StableDiffusion)
@@ -12,7 +12,7 @@ This repository only holds the docker-compose file [📄](compose.yaml) that bui
 - 📂 `/frontend` : [`Frontend-Flutter`](https://github.com/Emotion2Emoji-LMU-ACP-WS24-25/Frontend-Flutter)
 
 
-## Job
+## 🛠️ Job
 Example:
 ```json
 {
@@ -30,10 +30,10 @@ Example:
 }
 ```
 
-### Job status
+### ✅ Job Status
 ![Image of the whole infrastructure](status.svg)
 
-## Commands
+## ⚙️ Setup & Build
 
 To get the whole project with the correct folder structure use `git clone --recurse-submodules git@github.com:Emotion2Emoji-LMU-ACP-WS24-25/Docker-Compose.git [path]` with `path` being the optional custom path to clone the repo into.
 
