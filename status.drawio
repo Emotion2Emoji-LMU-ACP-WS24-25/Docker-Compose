@@ -1,0 +1,100 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0" version="26.0.8">
+  <diagram name="Page-1" id="WTZXXo8ZZ_Hqiv_jmWDr">
+    <mxGraphModel dx="2362" dy="2372" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wQrvdkC9KPMXSVothPcK-31" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="350" width="140" height="730" as="geometry" />
+        </mxCell>
+        <mxCell id="wQrvdkC9KPMXSVothPcK-15" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="70" width="730" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="wQrvdkC9KPMXSVothPcK-1" value="uploaded" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wQrvdkC9KPMXSVothPcK-2" value="analyzing" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="180" y="80" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wQrvdkC9KPMXSVothPcK-3" value="analyzed" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wQrvdkC9KPMXSVothPcK-4" value="&lt;div&gt;prompting&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="380" y="80" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wQrvdkC9KPMXSVothPcK-5" value="&lt;div&gt;prompted&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="480" y="80" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wQrvdkC9KPMXSVothPcK-6" value="&lt;div&gt;generating&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="580" y="80" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wQrvdkC9KPMXSVothPcK-7" value="completed" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="680" y="80" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wQrvdkC9KPMXSVothPcK-8" value="&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;images received and stored for later use&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="130" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wQrvdkC9KPMXSVothPcK-9" value="images retrieved by models for analyzing" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="180" y="130" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wQrvdkC9KPMXSVothPcK-10" value="images anlyzed (general description &amp;amp; emotion)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="280" y="130" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wQrvdkC9KPMXSVothPcK-11" value="description &amp;amp; emotion used to generate prompt for emoji generation and caption suggestion" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="380" y="130" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wQrvdkC9KPMXSVothPcK-12" value="&lt;div&gt;prompt for emoji generation and caption suggestion done&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="480" y="130" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wQrvdkC9KPMXSVothPcK-13" value="emoji is generated based on given prompt" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="580" y="130" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wQrvdkC9KPMXSVothPcK-14" value="emoji and caption suggestion available" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="680" y="130" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="wQrvdkC9KPMXSVothPcK-16" value="uploaded" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=-90;horizontal=1;flipV=1;flipH=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="45" y="395" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wQrvdkC9KPMXSVothPcK-17" value="analyzing" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=-90;horizontal=1;flipV=1;flipH=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="45" y="495" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wQrvdkC9KPMXSVothPcK-18" value="analyzed" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=-90;horizontal=1;flipV=1;flipH=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="45" y="595" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wQrvdkC9KPMXSVothPcK-19" value="&lt;div&gt;prompting&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=-90;horizontal=1;flipV=1;flipH=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="45" y="695" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wQrvdkC9KPMXSVothPcK-20" value="&lt;div&gt;prompted&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=-90;horizontal=1;flipV=1;flipH=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="45" y="795" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wQrvdkC9KPMXSVothPcK-21" value="&lt;div&gt;generating&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=-90;horizontal=1;flipV=1;flipH=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="45" y="895" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wQrvdkC9KPMXSVothPcK-22" value="&lt;div&gt;generating&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=-90;horizontal=1;flipV=1;flipH=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="45" y="995" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wQrvdkC9KPMXSVothPcK-23" value="&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;images received and stored for later use&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="360" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wQrvdkC9KPMXSVothPcK-24" value="images retrieved by models for analyzing" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="130" y="460" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wQrvdkC9KPMXSVothPcK-25" value="images anlyzed (general description &amp;amp; emotion)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="130" y="560" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wQrvdkC9KPMXSVothPcK-26" value="description &amp;amp; emotion used to generate prompt for emoji generation and caption suggestion" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="130" y="660" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wQrvdkC9KPMXSVothPcK-27" value="&lt;div&gt;prompt for emoji generation and caption suggestion done&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="130" y="760" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wQrvdkC9KPMXSVothPcK-28" value="emoji is generated based on given prompt" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="130" y="860" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wQrvdkC9KPMXSVothPcK-29" value="emoji and caption suggestion available" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="130" y="960" width="70" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
