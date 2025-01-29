@@ -9,4 +9,4 @@
 	url = git@github.com:Emotion2Emoji-LMU-ACP-WS24-25/Backend-PaliGemma-2.git
 [submodule "llm"]
 	path = llm
-	url = git@github.com:Emotion2Emoji-LMU-ACP-WS24-25/Backend-Mistral.git
+	url = https://github.com/Emotion2Emoji-LMU-ACP-WS24-25/Backend-Mistral
