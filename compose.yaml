@@ -85,6 +85,24 @@ services:
               count: all
               capabilities: [gpu]
 
+  llm:
+    build:
+      context: ./llm
+      dockerfile: Dockerfile
+    container_name: llm
+    ports:
+      - "4000:4000"
+    depends_on:
+      - mongo # Ensure MongoDB is started before the app
+    volumes:
+      - uploads:/app/uploads
+      - ${MODELS_PATH}:/app/models
+    networks:
+      - app-network
+    environment:
+      - API_KEY=${API_KEY}
+    
+
 volumes:
   uploads: # Volume for uploaded images (shared between middleware and vision application)
   emojis: # Volume for generated (shared between middleware and stable diffsion application)
