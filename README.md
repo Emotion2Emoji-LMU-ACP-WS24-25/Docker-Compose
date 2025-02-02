@@ -40,3 +40,5 @@ To get the whole project with the correct folder structure use `git clone --recu
 `docker-compose up --build` : Brings up the whole stack including a persistent MongoDB Container, the "Middleware" (i.e. [`Backend-Interface`](https://github.com/Emotion2Emoji-LMU-ACP-WS24-25/Backend-Interface)) as well as the dependent LLama 3.2 Vision and Stable Diffusion (i.e. [`Backend-StableDiffusion`](https://github.com/Emotion2Emoji-LMU-ACP-WS24-25/Backend-StableDiffusion)) applications.
 
 Use `-d` to run the docker-compose detached.
+
+Expose backend port 3000 using ngrok with a static URL, following the instructions [here](https://dashboard.ngrok.com/get-started/setup/docker). Once set up, add the static URL to the .env file in the Flutter frontend.
