@@ -18,15 +18,19 @@ Example:
 ```json
 {
   "_id": {
-    "$oid": "6758a254a304107814afd00e"
+    "$oid": "679f71d3f8e0140487a493d2"
   },
-  "frontImagePath": "uploads/demo/2024_12_10-20_19-front-51394850.jpg",
-  "backImagePath": "uploads/demo/2024_12_10-20_19-back-51394850.jpg",
-  "prompt": "A male with blonde hair, green eyes, strongly expressing happy emotion, wearing a balck shirt, a rocky cliff with grass growing out of it in the background, icon emoji",
   "status": "completed",
-  "resultImagePath": "/app/emojis/6758a254a304107814afd00e.png",
-  "uploadDate": "2024-12-10",
-  "uploadTime": "20:19:32",
+  "frontImagePath": "uploads/livedemo/2025_02_02-13_23-front-751172597.jpg",
+  "frontImageDescription": "A man with short gray hair and a full gray beard is wearing a blue shirt. The man is looking directly at the camera with his eyes closed. The man has a stern expression on his face. The man has a full beard and mustache. The man has a large forehead. The man has a large nose. The man has a large chin. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has",
+  "backImagePath": "uploads/livedemo/2025_02_02-13_23-back-751172597.JPG",
+  "backImageDescription": "A top-down view of a pizza that is sitting on a white surface. The pizza has a crust that is light brown, and along the top portion of the crust there are small black circles. The inside of the pizza is white, and along the white there are thin black lines that run horizontally. The inside of the pizza is being lit up by white light, and along the top portion of the pizza there are three leaves that are green. The pizza is being lit up by white light, and along the top portion of the pizza there are small black circles that run horizontally.",
+  "prompt": "A middle-aged man with short gray hair and a full gray beard, closed green eyes, joyfully expressing happiness, wearing a blue shirt, in a setting with a top-down view of a well-lit, partially-eaten pizza on a white surface, adorned with small black-olive circles and three green leaves along its crust., icon emoji",
+  "resultImagePath": "/app/emojis/679f71d3f8e0140487a493d2.png",
+  "caption": "\"Blind Bite into Happiness\"",
+  "emotion": "happy",
+  "uploadDate": "2025-02-02",
+  "uploadTime": "13:23:31",
   "__v": 0
 }
 ```
