@@ -1,0 +1,125 @@
+{
+  "_id": {
+    "$oid": "67a0cafd8fdbbd0ec0991929"
+  },
+  "status": "uploaded",
+  "frontImagePath": "uploads/livedemo/2025_02_03-13_56-front-437077532.jpg",
+  "frontImageDescription": null,
+  "backImagePath": "uploads/livedemo/2025_02_03-13_56-back-437077532.JPG",
+  "backImageDescription": null,
+  "prompt": null,
+  "resultImagePath": null,
+  "caption": null,
+  "emotion": null,
+  "uploadDate": "2025-02-03",
+  "uploadTime": "13:56:13",
+  "__v": 0
+}
+
+{
+    "_id": {
+      "$oid": "67a0cafd8fdbbd0ec0991929"
+    },
+    "status": "analyzing",
+    "frontImagePath": "uploads/livedemo/2025_02_03-13_56-front-437077532.jpg",
+    "frontImageDescription": null,
+    "backImagePath": "uploads/livedemo/2025_02_03-13_56-back-437077532.JPG",
+    "backImageDescription": null,
+    "prompt": null,
+    "resultImagePath": null,
+    "caption": null,
+    "emotion": null,
+    "uploadDate": "2025-02-03",
+    "uploadTime": "13:56:13",
+    "__v": 0
+  }
+
+  {
+    "_id": {
+      "$oid": "67a0cafd8fdbbd0ec0991929"
+    },
+    "status": "analyzed",
+    "frontImagePath": "uploads/livedemo/2025_02_03-13_56-front-437077532.jpg",
+    "frontImageDescription": "A man with short gray hair and a full gray beard is wearing a blue shirt. The man is looking directly at the camera with his eyes closed. The man has a stern expression on his face. The man has a full beard and mustache. The man has a large forehead. The man has a large nose. The man has a large chin. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has",
+    "backImagePath": "uploads/livedemo/2025_02_03-13_56-back-437077532.JPG",
+    "backImageDescription": "A top-down view of a pizza that is sitting on a white surface. The pizza has a crust that is light brown, and along the top portion of the crust there are small black circles. The inside of the pizza is white, and along the white there are thin black lines that run horizontally. The inside of the pizza is being lit up by white light, and along the top portion of the pizza there are three leaves that are green. The pizza is being lit up by white light, and along the top portion of the pizza there are small black circles that run horizontally.",
+    "prompt": null,
+    "resultImagePath": null,
+    "caption": null,
+    "emotion": "happy",
+    "uploadDate": "2025-02-03",
+    "uploadTime": "13:56:13",
+    "__v": 0
+  }
+
+  {
+    "_id": {
+      "$oid": "67a0cafd8fdbbd0ec0991929"
+    },
+    "status": "prompting",
+    "frontImagePath": "uploads/livedemo/2025_02_03-13_56-front-437077532.jpg",
+    "frontImageDescription": "A man with short gray hair and a full gray beard is wearing a blue shirt. The man is looking directly at the camera with his eyes closed. The man has a stern expression on his face. The man has a full beard and mustache. The man has a large forehead. The man has a large nose. The man has a large chin. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has",
+    "backImagePath": "uploads/livedemo/2025_02_03-13_56-back-437077532.JPG",
+    "backImageDescription": "A top-down view of a pizza that is sitting on a white surface. The pizza has a crust that is light brown, and along the top portion of the crust there are small black circles. The inside of the pizza is white, and along the white there are thin black lines that run horizontally. The inside of the pizza is being lit up by white light, and along the top portion of the pizza there are three leaves that are green. The pizza is being lit up by white light, and along the top portion of the pizza there are small black circles that run horizontally.",
+    "prompt": null,
+    "resultImagePath": null,
+    "caption": null,
+    "emotion": "happy",
+    "uploadDate": "2025-02-03",
+    "uploadTime": "13:56:13",
+    "__v": 0
+  }
+
+  {
+    "_id": {
+      "$oid": "67a0cafd8fdbbd0ec0991929"
+    },
+    "status": "prompted",
+    "frontImagePath": "uploads/livedemo/2025_02_03-13_56-front-437077532.jpg",
+    "frontImageDescription": "A man with short gray hair and a full gray beard is wearing a blue shirt. The man is looking directly at the camera with his eyes closed. The man has a stern expression on his face. The man has a full beard and mustache. The man has a large forehead. The man has a large nose. The man has a large chin. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has",
+    "backImagePath": "uploads/livedemo/2025_02_03-13_56-back-437077532.JPG",
+    "backImageDescription": "A top-down view of a pizza that is sitting on a white surface. The pizza has a crust that is light brown, and along the top portion of the crust there are small black circles. The inside of the pizza is white, and along the white there are thin black lines that run horizontally. The inside of the pizza is being lit up by white light, and along the top portion of the pizza there are three leaves that are green. The pizza is being lit up by white light, and along the top portion of the pizza there are small black circles that run horizontally.",
+    "prompt": "A gray-haired, stern-looking older man, strongly expressing happiness despite his closed eyes, wearing a blue shirt, in a setting with a brightly lit, top-down view of a green-speckled, crust-dotted pizza on a white surface., icon emoji",
+    "resultImagePath": null,
+    "caption": "'Ich bin glücklich. Pizza sieht gut aus.'",
+    "emotion": "happy",
+    "uploadDate": "2025-02-03",
+    "uploadTime": "13:56:13",
+    "__v": 0
+  }
+
+  {
+    "_id": {
+      "$oid": "67a0cafd8fdbbd0ec0991929"
+    },
+    "status": "generating",
+    "frontImagePath": "uploads/livedemo/2025_02_03-13_56-front-437077532.jpg",
+    "frontImageDescription": "A man with short gray hair and a full gray beard is wearing a blue shirt. The man is looking directly at the camera with his eyes closed. The man has a stern expression on his face. The man has a full beard and mustache. The man has a large forehead. The man has a large nose. The man has a large chin. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has",
+    "backImagePath": "uploads/livedemo/2025_02_03-13_56-back-437077532.JPG",
+    "backImageDescription": "A top-down view of a pizza that is sitting on a white surface. The pizza has a crust that is light brown, and along the top portion of the crust there are small black circles. The inside of the pizza is white, and along the white there are thin black lines that run horizontally. The inside of the pizza is being lit up by white light, and along the top portion of the pizza there are three leaves that are green. The pizza is being lit up by white light, and along the top portion of the pizza there are small black circles that run horizontally.",
+    "prompt": "A gray-haired, stern-looking older man, strongly expressing happiness despite his closed eyes, wearing a blue shirt, in a setting with a brightly lit, top-down view of a green-speckled, crust-dotted pizza on a white surface., icon emoji",
+    "resultImagePath": null,
+    "caption": "'Ich bin hungrig. Pizza sieht gut aus.'",
+    "emotion": "happy",
+    "uploadDate": "2025-02-03",
+    "uploadTime": "13:56:13",
+    "__v": 0
+  }
+
+  {
+    "_id": {
+      "$oid": "67a0cafd8fdbbd0ec0991929"
+    },
+    "status": "completed",
+    "frontImagePath": "uploads/livedemo/2025_02_03-13_56-front-437077532.jpg",
+    "frontImageDescription": "A man with short gray hair and a full gray beard is wearing a blue shirt. The man is looking directly at the camera with his eyes closed. The man has a stern expression on his face. The man has a full beard and mustache. The man has a large forehead. The man has a large nose. The man has a large chin. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has a large forehead. The man has",
+    "backImagePath": "uploads/livedemo/2025_02_03-13_56-back-437077532.JPG",
+    "backImageDescription": "A top-down view of a pizza that is sitting on a white surface. The pizza has a crust that is light brown, and along the top portion of the crust there are small black circles. The inside of the pizza is white, and along the white there are thin black lines that run horizontally. The inside of the pizza is being lit up by white light, and along the top portion of the pizza there are three leaves that are green. The pizza is being lit up by white light, and along the top portion of the pizza there are small black circles that run horizontally.",
+    "prompt": "A gray-haired, stern-looking older man, strongly expressing happiness despite his closed eyes, wearing a blue shirt, in a setting with a brightly lit, top-down view of a green-speckled, crust-dotted pizza on a white surface., icon emoji",
+    "resultImagePath": "/app/emojis/67a0cafd8fdbbd0ec0991929.png",
+    "caption": "'Ich bin glücklich. Pizza sieht gut aus.'",
+    "emotion": "happy",
+    "uploadDate": "2025-02-03",
+    "uploadTime": "13:56:13",
+    "__v": 0
+  }
