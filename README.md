@@ -46,4 +46,14 @@ To get the whole project with the correct folder structure use `git clone --recu
 
 Use `-d` to run the docker-compose detached.
 
-Expose backend port 3000 using ngrok with a static URL, following the instructions [here](https://dashboard.ngrok.com/get-started/setup/docker). Once set up, add the static URL to the .env file in the Flutter frontend.
+Expose backend port 3000 using ngrok with a static URL, following the instructions [here](https://dashboard.ngrok.com/get-started/setup/docker). Once set up, add the static URL to the .env file in the Flutter frontend. (See frontend README)
+
+In the main directory, add a `.env` file as well.
+1. **MODELS_PATH=VALUE**, the local path to the directory with all the downloaded model files
+2. **API_KEY=VALUE**, the huggingface API key
+
+For model download, use:
+```
+git lfs install
+git clone git@hf.co:<MODEL ID> # example: git clone git@hf.co:google/paligemma2-3b-ft-docci-448
+```
